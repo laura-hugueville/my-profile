@@ -1,0 +1,122 @@
+body{
+ background-image: url(images/fond.jpg);
+ background: cover;
+ color: #403F4C;
+ font-family: arial, serif;
+ text-align: center;
+ font-size: 16px;
+}
+
+h1, h2 {
+    font-family: Roboto Slab, serif;
+}
+
+h1{
+ color: rgb(220, 50, 50);
+ font-size:44px;
+}
+
+h2{ 
+ color: #f64b3c;
+ letter-spacing: 5px;
+ font-size: 26px;
+}
+
+#lolo {
+	width: 250px;
+	border-radius: 200px
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	transition: color 0.5s ease;
+}
+
+#n-p {
+	margin-bottom: 30px;
+}
+
+#button a {
+	background-color: rgb(255,166,158);
+	padding: 8px;
+	border-radius: 5px;
+	color: white;
+	transition: background-color 0.3s ease;
+}
+
+#button a:hover {
+	background-color: #f64b3c;
+}
+
+a:hover {
+	color: #FFA69E;
+}
+
+#presentation, #travelling, #movies, #paris, #exhibitions, #person, #form, #follow {
+background: white;
+margin: 50px;
+padding: 30px;
+border-radius: 25px;
+box-shadow: 0 15px 35px rgba(50, 50, 93, .1);
+}
+
+.momo {
+	display: inline-flex;
+	border-radius: 5%;
+	height: 130px;
+	width: auto;
+	transition: 0.3s ease;
+}
+
+.momo:hover {
+	height: 150px;
+	width: auto;
+	text-align: center;
+}
+
+.list-inline {
+	list-style: none;
+}
+.list-inline2 {
+	list-style: none;
+	display: inline;
+	padding: 0px 5px;
+}
+
+.bj {
+	border-radius: 100px;
+	width: 200px;
+}
+
+.paris-img {
+	width: 350px;
+	height: auto;
+	border-radius: 3px;
+}
+
+@media (max-width: 960px) {
+	#presentation, #travelling, #movies, #paris, #exhibitions, #person, #form, #follow {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	#presentation, #travelling, #movies, #paris, #exhibitions, #person, #form, #follow {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	#presentation, #travelling, #movies, #paris, #exhibitions, #person, #form, #follow {
+		width: 300px;
+	}
+	.paris-img {
+		width: 250px;
+	}
+	.momo {
+		width: 200px;
+		height: auto;
+	}
+}
